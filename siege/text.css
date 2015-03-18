@@ -1,0 +1,85 @@
+BODY	{color: #000000;
+		 background: #ffffff;
+		 font-family: verdana, arial, helvetica, sans serif;
+		 padding: 1.5%;
+	  	 font-weight: bold;
+		 margin-left: auto;
+		 margin-right: auto;
+		 
+		 font-size: 10px;
+}
+
+
+p {background: #ffffff;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans serif;
+	color: #000000;
+	text-align: justify;
+	line-height: 17px;
+
+}
+td {font-size: 12px;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans serif;
+	color: #000000;
+
+	
+}
+
+li	{background: #ffffff;
+	list-style: disc;
+	font-size: 12px;
+}
+
+
+ a {
+		font-family: verdana, arial, helvetica, sans serif; 
+		font-size: 10 px; 
+		font-weight: bold; 
+		color: #0033ff
+}
+
+
+A:link, A:visited, A:active { 	
+font-family: verdana, arial, helvetica, sans serif;
+color: #0033ff
+
+
+
+}
+
+A:hover {
+	color: #0033ff; 
+
+}
+
+
+
+#month	{color: #000000;
+		 background: #ffffff;
+		 font-family: verdana, arial, helvetica, sans serif;
+		 font-weight: bold;
+		 font-size: 10px;
+}
+
+#index	{color: #666666;
+		 background: #ffffff;
+		 font-family: verdana, arial, helvetica, sans serif;
+	   	 font-weight: bold;
+		 font-size: 12px;
+}
+
+#text	{
+        color: #000000;
+		font-size:12px;
+		font-family: Times New Roman, serif;
+		
+		background: #ffffff;}
+
+hr {
+color:#000000;
+height: 1px;
+}
+
+

@@ -1,0 +1,161 @@
+BODY	{color: #999999;
+		 background: #ffffff;
+		 font-family: arial, helvetica, sans serif;
+		 padding: 1.5%;
+	  	 font-weight: bold;
+		 margin-left: auto;
+		 margin-right: auto;
+		 
+		 font-size: 12px;
+}
+
+
+p {background: #ffffff;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: arial, helvetica, sans serif;
+	color: #000000;
+	text-align: justify;
+	line-height: 17px;
+
+}
+td {font-size: 12px;
+	font-weight: normal;
+	font-family: arial, helvetica, sans serif;
+	color: #000000;
+	line-height: 17px;
+	
+}
+
+li	{background: #ffffff;
+	list-style: disc;
+	font-size: 12px;
+}
+
+
+ a {
+		font-family: arial, helvetica, sans serif; 
+		font-size: 12 px; 
+		color: #0033ff;
+		
+	text-decoration: none;
+}
+
+
+A:link, A:visited, A:active { 	
+font-size: 12px;
+font-weight: normal;
+font-family: arial, helvetica, sans serif;
+color: #999999;
+text-decoration: none;
+
+
+
+}
+
+A:hover {
+	color: #999999; 
+	text-decoration: underline;
+
+}
+
+td{color: #000000;
+		 background: #ffffff;
+		 font-family: arial, helvetica, sans serif;
+		 font-weight: normal;
+		 font-size: 10px;
+}
+
+#month	{color: #000000;
+		 background: #ffffff;
+		 font-family: arial, helvetica, sans serif;
+		 font-weight: bold;
+		 font-size: 10px;
+}
+
+#index	{color: #666666;
+		 background: #ffffff;
+		 font-family: arial, helvetica, sans serif;
+	   	 font-weight: bold;
+		 font-size: 12px;
+}
+
+	
+#links	{font-size:14px;
+		
+		font-family: arial, helvetica, sans serif;
+	    background: #ffffff;}
+
+#kids	{
+        color: #999999;
+		font-size:10px;
+		font-family: verdana, arial, helvetica, sans serif; 
+	
+		background: #ffffff;}
+		
+#menu	{
+        color: #999999;
+		font-size:11px;
+		font-family: arial, helvetica, sans serif; 
+		
+		background: #ffffff;}
+		
+#menu1	{
+        color: #000000;
+		font-size:11px;
+		font-family: arial, helvetica, sans serif; 
+		font-weight: bold;}
+	
+		
+#list	
+		{
+        color: #666666;
+		font-size:12px;
+		font-family: arial, helvetica, sans serif; 
+		background: #ffffff;}
+
+#list1
+		{
+        color: #666666;
+		font-size:12px;
+		font-family: arial, helvetica, sans serif; 
+	    font-weight: bold;
+		background: #ffffff;}
+		
+				
+#aura	{
+        color: #999999;
+		font-size:9px;
+		font-family: arial, helvetica, sans serif; 
+		
+		background: #ffffff;}
+		
+#title	{font-weight:bold;
+ 		font-size:18px;
+ 		font-family: arial, helvetica, sans serif;
+ 		background: #ffffff;}
+ 		
+#secondary	{font-size:11px;
+font-family: arial, helvetica, sans serif;
+			background: #ffffff;}
+			
+#header	{font-size:11px;
+font-family: arial, helvetica, sans serif;
+		background: #ffffff;}
+		
+#headfont	{font-size:24px;
+		font-weight:bold;
+		font-family: arial, helvetica, sans serif;
+		background: #ffffff;}
+		
+.clear	{clear: left;}
+
+
+
+
+hr {
+color:#000000;
+height: 1px;
+}
+
+
