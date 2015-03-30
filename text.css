@@ -1,5 +1,4 @@
 /***** GLOBAL *****/
-
 body	{
 	color: #999999;
 	background: #ffffff;
@@ -10,7 +9,6 @@ body	{
 	margin-right: auto;
 	font-size: 12px;
 }
-
 
 p {
 	font-size: 10px;
@@ -27,17 +25,14 @@ li	{
 	font-size: 12px;
 }
 
-
 a {
 	font-family: Arial, sans-serif; 
-	font-size: 12px; 
+	font-size: 10px; 
 	color: #0033ff;
 	text-decoration: none;
 }
 
-
 a:link, a:visited, a:active { 	
-font-size: 12px;
 font-weight: normal;
 font-family: Arial, sans-serif;
 color: #999999;
@@ -52,64 +47,12 @@ hr {
 	color: #000000;
 	height: 1px;
 }
-
-/***** GLOBAL *****/
-
-
-/***** SIDEBAR STYLING *****/
-
-#sidebar	{
-	position: absolute;
-	float:left;
-	width:20%; 
-	height:100%; 
-	top: 7%;
-}
-
-#sidebar p a {
-	color: #999999;
-	font-size:11px;
-	font-family: Arial, sans-serif; 
-	background: #ffffff;
-}
-
-#name {
-	top: 10px;
-	margin-bottom: 30px;
-}
-	
-#view	{ /* was #menu1 */
-    color: #000000;
-	font-weight: bold;
-	font-size: 12px;
-}
-
-#sidebar #list a {
-	color: #666666;
-	font-size: 12px;
-	font-family: Arial, sans-serif; 
-}
-
-#list1	{
-	font-weight: bold;
-}
-		
-				
-#copy	{
-    color: #999999;
-	font-size:9px;
-	font-family: Arial, sans-serif; 
-	margin-top: 20%;
-}
-
-/***** END SIDEBAR STYLING *****/
-
 #container {
 	width: 77%;
 	height: 100%;
 	float: right;
 	position: relative;
-	top: 10%;
+	top: 7%;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -127,11 +70,81 @@ hr {
 	margin: 5%;
 }
 
+.pr	{
+	width: 55%;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+#kids	{
+    color: #999999;
+	font-size:10px;
+	font-family: Verdana, Arial, sans-serif; 
+	background: #FFFFFF;
+}
+/***** END GLOBAL *****/
+
+
+/***** SIDEBAR STYLING *****/
+#sidebar	{
+	position: absolute;
+	float:left;
+	width:20%; 
+	height:100%; 
+	top: 7%;
+}
+
+
+#sidebar p a {
+	color: #999999;
+	font-size:11px;
+	font-family: Arial, sans-serif; 
+}
+
+#name {
+	top: 10px;
+	margin-bottom: 30px;
+}
+	
+#view	{ /* was #menu1 */
+    color: #000000;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+#sidebar #list a {
+	color: #666666;
+	font-size: 12px;
+	font-family: Arial, sans-serif; 
+}
+
+#list1	{
+	font-weight: bold;
+	color: #666666;
+	font-size: 12px;
+}
+		
+				
+#copy	{
+    color: #999999;
+	font-size:9px;
+	font-family: Arial, sans-serif; 
+	margin-top: 20%;
+}
+
+#exh_titles a {
+	color: #999999;
+	font-size:11px;
+	font-family: Arial, sans-serif; 
+	margin-left: 3%;
+}
+
+/***** END SIDEBAR STYLING *****/
+
 /**** Links ****/
 .contact {
 	width: 40%;
 }
-
 /**** END Links ****/
 
 #links	{
@@ -139,8 +152,6 @@ hr {
 	font-family: Arial, sans-serif;
 	background: #ffffff;
 }
-
-
 
 
 td { /* delete */
@@ -159,12 +170,7 @@ td { /* delete */
 	line-height: 17px;
 }
 
-#month	{color: #000000;
-		 background: #ffffff;
-		 font-family: arial, helvetica, sans serif;
-		 font-weight: bold;
-		 font-size: 10px;
-}
+
 
 #index	{color: #666666;
 		 background: #ffffff;
@@ -173,12 +179,6 @@ td { /* delete */
 		 font-size: 12px;
 }
 
-#kids	{
-        color: #999999;
-		font-size:10px;
-		font-family: verdana, arial, helvetica, sans serif; 
-	
-		background: #ffffff;}
 		
 #title	{font-weight:bold;
  		font-size:18px;
