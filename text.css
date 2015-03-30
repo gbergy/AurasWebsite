@@ -57,6 +57,15 @@ hr {
 	margin-bottom: 20px;
 }
 
+#container h3 {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.scroll {
+	overflow: scroll;
+}
+
 #home {
   width: 20%;
   height: 100%;
@@ -134,9 +143,17 @@ hr {
 
 #exh_titles a {
 	color: #999999;
-	font-size:11px;
+	font-size: 10px;
 	font-family: Arial, sans-serif; 
-	margin-left: 3%;
+	margin-left: 5%;
+	font-weight: normal;
+	text-align: justify;
+	line-height: 17px;
+}
+
+#exh_view {
+	font-weight: bold;
+	color: #000;
 }
 
 /***** END SIDEBAR STYLING *****/
@@ -146,6 +163,49 @@ hr {
 	width: 40%;
 }
 /**** END Links ****/
+
+.pub {
+  font-family: Arial, sans-serif;
+  padding: 1.5%;
+  font-size: 10px;
+  line-height: 17px;
+  margin: 3%;
+  width: 45%;
+}
+
+.pub span {
+	font-weight: bold;
+	color: #666;
+}
+.bio {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial, sans-serif;
+	color: #000;
+	line-height: 17px;
+	margin: 0;
+}
+
+/*.bioDate {
+	margin-right: 30px;
+}
+
+.bioText {
+	margin-left: 56px;
+}*/
+
+.bio_text {
+	display: inline-block;
+	width: 500px;
+	height: auto;
+	margin-left: 30px;
+}
+
+.bio_date {
+	display: inline-block;
+	margin-right: 30px;
+	float: left;
+}
 
 #links	{
 	font-size:14px;
