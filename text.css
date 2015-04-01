@@ -175,11 +175,17 @@ hr {
   line-height: 17px;
   margin: 3%;
   width: 45%;
+  overflow: auto;
 }
 
 .pub span {
 	font-weight: bold;
 	color: #666;
+}
+
+.pub img {
+	display: inline-block;
+	float: left;
 }
 .bio {
 	font-size: 12px;
