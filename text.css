@@ -43,6 +43,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+a:focus {
+	outline: none;
+}
+
 hr {
 	color: #000000;
 	height: 1px;
