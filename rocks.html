@@ -9,58 +9,9 @@
 <!-- InstanceEndEditable -->
 <link rel="stylesheet" href="text.css" type="text/css">
 <link href="colorbox.css" rel="stylesheet" type="text/css">
-<script type="text/javascript">
-<!--
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-//-->
-</script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="jquery.colorbox.js"></script>
-    <script>
-      $(document).ready(function(){
-        //Examples of how to assign the ColorBox event to elements
-        $(".group1").colorbox({rel:'group1'});
-        $(".group2").colorbox({rel:'group2', transition:"none", position:"absolute", width:"700px", top:"0px", left:"50px"});
-        $(".group3").colorbox({rel:'group3', transition:"none", width:"700px", height:"700px", position:"absolute", top:"0px", left:"50px"});
-        $(".group4").colorbox({rel:'group4', slideshow:true});
-        $(".ajax").colorbox();
-        $(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
-        $(".iframe").colorbox({iframe:true, width:"100%", height:"100%"});
-        $(".inline").colorbox({inline:true, width:"100%"});
-        $(".callbacks").colorbox({
-          onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-          onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-          onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-          onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-          onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
-        });
-        
-        //Example of preserving a JavaScript event for inline calls.
-        $("#click").click(function(){ 
-          $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-          return false;
-        });
-      });
-    </script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -69,6 +20,7 @@ function MM_swapImage() { //v3.0
     <p>
       <a href="projects.html"><span id="list1">Projects</span></a><br>
       <a href="pornrock.html"><span id="view">The Dialectical Porn Rock</span></a><br>
+        <span id="exh_titles"><a href="exhibition_rocks.html">Exhibition</a></span><br>
       <a href="headshot.html">Head Shots</a><br>            
       <a href="berlin.html">Berlin Childhood</a><br>
       <a href="who.html">Who am I ?...</a><br>
@@ -83,7 +35,8 @@ function MM_swapImage() { //v3.0
 
     <p id="list">       
       
-      <a href="publications.html">Publications</a><br>
+       <a href="publications.html"><span id="list1">Publications</span></a><br>
+      <a href="arts_reviews.html">Articles &amp; Reviews</a><br>
       <a href="bio.html">Biography</a><br>
       <!-- <a href="contact.html">Contact</a><br> -->
       <a href="links.html">Links</span></a><br>
@@ -97,25 +50,39 @@ function MM_swapImage() { //v3.0
       <a href="mailto:dana@theartistproject.org">Website by D. Maisel</a>
     </p>
   </div><!-- END SIDEBAR -->          
-  <div id="container" class="margin">
-    <p><a href="rocks_1.jpg" class="group2"><img src="rocks_1.jpg"></a></p>
-    
-    <p><a href="rocks_2.jpg" class="group2"><img src="rocks_2.jpg"></a></p>
+  <div id="container"> <!-- class="margin" -->
+    <h1>The Dialectical Porn Rock</h1>
+    <p class="pr">
+    <br>
+    <i>The Dialectical Porn Rock</i> began in 1989 as a practical joke. Yet as often happens with jokes, much had been condensed into a single gesture. I was spending the summer in the mountains, away from my studio in New York. A friend, who is a sculptor and an avid fisherman, was also vacationing there. He had been using pornographic photos in his work. I planned to surprise him by planting rocks covered with pictures of naked bodies in his favorite trout stream. Taking rocks from the stream, I pasted on photos torn from magazines, then brushed on a protective layer of polyester resin, and put them back in the water. Struck by the contrast between the altered rocks and their natural setting, I decided to photograph them. Only later, did I appreciate the rocks as objects in themselves and started to arrange them outdoors and indoors both in carefully laid out forms and random piles. I titled the series of sculptural installations and photographs <i>The Dialectical Porn Rock</i> after Robert Smithson's essay "The Dialectical Landscape".  I photographed the rocks in a variety of urban and rural landscapes throughout New York, California, the Southwest, Germany, Italy and Switzerland. 
+    </p>
 
-    <p><a href="rocks_3.jpg" class="group2"><img src="rocks_3.jpg"></a></p>
+    <div id="slideshow">
+      <div id="slides">
+        <p><!-- <a href="rocks_1.jpg" class="group2"> --><img src="rocks_1.jpg"><!-- </a> --><br><span id="kids">This is a default title for testing</span></p>
+        
+        <p><!-- <a href="rocks_2.jpg" class="group2"> --><img src="rocks_2.jpg"><!-- </a> --></p>
 
-    <p><a href="rocks_4.jpg" class="group2"><img src="rocks_4.jpg"></a></p>
+        <p><!-- <a href="rocks_3.jpg" class="group2"> --><img src="rocks_3.jpg"><!-- </a> --></p>
 
-    <p><a href="rocks_5.jpg" class="group2"><img src="rocks_5.jpg"></a></p>
+        <p><!-- <a href="rocks_4.jpg" class="group2"> --><img src="rocks_4.jpg"><!-- </a> --></p>
 
-    <p><a href="rocks_7.jpg" class="group2"><img src="rocks_7.jpg"></a></p>
+        <p><!-- <a href="rocks_5.jpg" class="group2"> --><img src="rocks_5.jpg"><!-- </a> --></p>
 
-    <p><a href="rocks_6.jpg" class="group2"><img src="rocks_6.jpg"></a></p>
+        <p><!-- <a href="rocks_7.jpg" class="group2"> --><img src="rocks_7.jpg"><!-- </a> --></p>
 
-    <p><a href="rocks_9.jpg" class="group2"><img src="rocks_9.jpg"></a></p>
+        <p><!-- <a href="rocks_6.jpg" class="group2"> --><img src="rocks_6.jpg"><!-- </a> --></p>
 
-    <p><a href="rocks_8.jpg" class="group2"><img src="rocks_8.jpg"></a></p>
+        <p><!-- <a href="rocks_9.jpg" class="group2"> --><img src="rocks_9.jpg"><!-- </a> --></p>
 
+        <p><!-- <a href="rocks_8.jpg" class="group2"> --><img src="rocks_8.jpg"><!-- </a> --></p>
+      </div><!--slides-->
+
+      <ul id="nav">
+        <li id="prev"><a href="#">Previous</a></li>
+        <li id="next"><a href="#">Next</a></li>
+      </ul>
+    </div><!--slideshow-->
   </div><!--#container-->
 </body>
 </html>
