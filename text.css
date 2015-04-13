@@ -148,7 +148,7 @@ div#slideshow ul#nav {
 	display: none;
 	list-style: none;
 	position: relative; /*top: 210px;*/ /*z-index: 15;*/
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	width: 100px;
 	padding-left: 10%;
 
@@ -173,9 +173,9 @@ div#slideshow ul#nav {
 			background: url(next.jpg);
 		}
 
-/*div#slideshow div#slides {
-		list-style: none;
-	}*/
+div#slideshow div#slides {
+		margin-bottom: 10px;
+	}
 		div#slideshow div#slides p {
 			margin: 0 0 20px 0;
 			background-color: #FFF;
