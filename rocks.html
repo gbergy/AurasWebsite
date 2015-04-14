@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="text.css" type="text/css">
 <link href="colorbox.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
@@ -53,36 +53,25 @@
   <div id="container"> <!-- class="margin" -->
     <h1>The Dialectical Porn Rock</h1>
     <p class="pr">
-    <br>
-    <i>The Dialectical Porn Rock</i> began in 1989 as a practical joke. Yet as often happens with jokes, much had been condensed into a single gesture. I was spending the summer in the mountains, away from my studio in New York. A friend, who is a sculptor and an avid fisherman, was also vacationing there. He had been using pornographic photos in his work. I planned to surprise him by planting rocks covered with pictures of naked bodies in his favorite trout stream. Taking rocks from the stream, I pasted on photos torn from magazines, then brushed on a protective layer of polyester resin, and put them back in the water. Struck by the contrast between the altered rocks and their natural setting, I decided to photograph them. Only later, did I appreciate the rocks as objects in themselves and started to arrange them outdoors and indoors both in carefully laid out forms and random piles. I titled the series of sculptural installations and photographs <i>The Dialectical Porn Rock</i> after Robert Smithson's essay "The Dialectical Landscape".  I photographed the rocks in a variety of urban and rural landscapes throughout New York, California, the Southwest, Germany, Italy and Switzerland. 
+      <br>
+      <i>The Dialectical Porn Rock</i> began in 1989 as a practical joke. Yet as often happens with jokes, much had been condensed into a single gesture. I was spending the summer in the mountains, away from my studio in New York. A friend, who is a sculptor and an avid fisherman, was also vacationing there. He had been using pornographic photos in his work. I planned to surprise him by planting rocks covered with pictures of naked bodies in his favorite trout stream. Taking rocks from the stream, I pasted on photos torn from magazines, then brushed on a protective layer of polyester resin, and put them back in the water. Struck by the contrast between the altered rocks and their natural setting, I decided to photograph them. Only later, did I appreciate the rocks as objects in themselves and started to arrange them outdoors and indoors both in carefully laid out forms and random piles. I titled the series of sculptural installations and photographs <i>The Dialectical Porn Rock</i> after Robert Smithson's essay "The Dialectical Landscape".  I photographed the rocks in a variety of urban and rural landscapes throughout New York, California, the Southwest, Germany, Italy and Switzerland. 
     </p>
 
-    <div id="slideshow">
-      <div id="slides">
-        <p><!-- <a href="rocks_1.jpg" class="group2"> --><img src="rocks_1.jpg"><!-- </a> --><br><span id="kids">This is a default title for testing</span></p>
-        
-        <p><!-- <a href="rocks_2.jpg" class="group2"> --><img src="rocks_2.jpg"><!-- </a> --></p>
+    <ul id="slides" class="bxslider">
+      <li><a href="rocks_1.jpg" ><img src="rocks_1.jpg"></a><br> <span id="kids">This is a default title for testing</span></li>
+      <li><a href="rocks_2.jpg" ><img src="rocks_2.jpg"></a></li>
+      <li><a href="rocks_3.jpg" ><img src="rocks_3.jpg"></a></li>
+      <li><a href="rocks_4.jpg" ><img src="rocks_4.jpg"></a></li>
+      <li><a href="rocks_5.jpg" ><img src="rocks_5.jpg"></a></li>
+      <li><a href="rocks_7.jpg" ><img src="rocks_7.jpg"></a></li>
+      <li><a href="rocks_6.jpg" ><img src="rocks_6.jpg"></a></li>
+      <li><a href="rocks_9.jpg" ><img src="rocks_9.jpg"></a></li>
+      <li><a href="rocks_8.jpg" ><img src="rocks_8.jpg"></a></li>
+    </ul><!--slides-->
 
-        <p><!-- <a href="rocks_3.jpg" class="group2"> --><img src="rocks_3.jpg"><!-- </a> --></p>
-
-        <p><!-- <a href="rocks_4.jpg" class="group2"> --><img src="rocks_4.jpg"><!-- </a> --></p>
-
-        <p><!-- <a href="rocks_5.jpg" class="group2"> --><img src="rocks_5.jpg"><!-- </a> --></p>
-
-        <p><!-- <a href="rocks_7.jpg" class="group2"> --><img src="rocks_7.jpg"><!-- </a> --></p>
-
-        <p><!-- <a href="rocks_6.jpg" class="group2"> --><img src="rocks_6.jpg"><!-- </a> --></p>
-
-        <p><!-- <a href="rocks_9.jpg" class="group2"> --><img src="rocks_9.jpg"><!-- </a> --></p>
-
-        <p><!-- <a href="rocks_8.jpg" class="group2"> --><img src="rocks_8.jpg"><!-- </a> --></p>
-      </div><!--slides-->
-
-      <ul id="nav">
-        <li id="prev"><a href="#">Previous</a></li>
-        <li id="next"><a href="#">Next</a></li>
-      </ul>
-    </div><!--slideshow-->
+    <div class="outside">
+      <p><span id="slider-prev"></span> | <span id="slider-next"></span></p>
+    </div>
   </div><!--#container-->
 </body>
 </html>

@@ -122,6 +122,7 @@ h1 {
 	width: 55%;
 	font-weight: bold;
 	font-size: 10px;
+	margin-bottom: 50px;
 }
 
 #kids	{
@@ -132,56 +133,12 @@ h1 {
 }
 /***** END GLOBAL *****/
 
-/***** Slideshow *****/
-div#slideshow {
-	/*width: 700px;*/ /*height: 518px;*/ 
-	width: auto;
-	height: auto;
-	padding: 15px 0 0 12px;
-	overflow: scroll; /* Allows the slides to be viewed using scrollbar if Javascript isn't available */ 
-	position: relative; 
-	z-index: 5;
-	background-color: #FFF;
+#slider-prev a,
+#slider-next a,
+.outside p {
+	font-size: 16px;
 }
 
-div#slideshow ul#nav {
-	display: none;
-	list-style: none;
-	position: relative; /*top: 210px;*/ /*z-index: 15;*/
-	margin-bottom: 10px;
-	width: 100px;
-	padding-left: 10%;
-
-}
-	div#slideshow ul#nav li#prev {
-		float: left; 
-		margin: 0 0 0 20px;
-		text-align: center;
-	}
-	div#slideshow ul#nav li#next {
-		float: right; 
-		margin: 0 20px 0 0;
-		text-align: center;
-	}
-	div#slideshow ul#nav li a {
-		display: block; width: 20px; height: 20px; text-indent: -9999px;
-	}
-		div#slideshow ul#nav li#prev a {
-			background: url(prev.jpg);
-		}
-		div#slideshow ul#nav li#next a {
-			background: url(next.jpg);
-		}
-
-div#slideshow div#slides {
-		margin-bottom: 10px;
-	}
-		div#slideshow div#slides p {
-			margin: 0 0 20px 0;
-			background-color: #FFF;
-		}
-
-/***** End Slideshow ******/
 /***** SIDEBAR STYLING *****/
 #sidebar	{
 	position: absolute;

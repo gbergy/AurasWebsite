@@ -1,19 +1,8 @@
 $(document).ready(function() {
-	$("#slideshow").css("overflow", "hidden");
-
-	$("div#slides").cycle({
-		fx: 'fade',
-		pause: 1,
-		prev: '#prev',
-		next: '#next'
+	$('.bxslider').bxSlider({
+	  nextSelector: '#slider-next',
+	  prevSelector: '#slider-prev',
+	  nextText: 'Next →',
+	  prevText: '← Prev'
 	});
-
-	$("#slideshow").hover(function() {
-			$("ul#nav").fadeIn();
-	},
-	
-		function() {
-		$("ul#nav").fadeOut();
-	});
-
 });
