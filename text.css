@@ -1,33 +1,8 @@
-/***** GLOBAL *****/
+**** GLOBAL *****/
 ul, li {
 	margin: 0; padding: 0; border: 0;
 }
 
-.proj_grid {
-	width: auto;
-	height: auto;
-	float: left;
-	margin: 2px;
-	padding: 2px;
-	position: relative;
-	white-space: pre-line;
-}
-
-.proj_grid:hover {
-	background-color: #EDECEC;
-	/*border:2px solid #EDECEC;
-	overflow: auto;*/
-
-	/*border one color*/
-	/*border hover another color*/
-}
-
-#proj_title {
-	font-size: 12px;
-	font-weight: bold;
-	text-align: center;
-
-}
 
 
 body	{
@@ -169,7 +144,7 @@ h1 {
 
 /***** SIDEBAR STYLING *****/
 #sidebar	{
-	position: absolute;
+	position: fixed;
 	float:left;
 	width:20%; 
 	height:100%; 
@@ -301,6 +276,36 @@ td {
 	line-height: 30px;
 }
 
+/********Projects Grid **********
+
+.proj_grid {
+	width: auto;
+	height: auto;
+	float: left;
+	margin: 2px;
+	padding: 2px;
+	position: relative;
+	white-space: pre-line;
+} */
+
+/*.proj_grid:hover {
+	background-color: #EDECEC;
+	/*border:2px solid #EDECEC;
+	overflow: auto;*/
+
+	/*border one color*/
+	/*border hover another color
+} */
+
+/*#proj_title {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+***********End Projects Grid***********/
+
 /*td { 
 	font-size: 12px;
 	font-weight: normal;
@@ -337,4 +342,4 @@ font-family: arial, helvetica, sans serif;
 		font-family: arial, helvetica, sans serif;
 		background: #ffffff;}
 		
-.clear	{clear: left;}*/
+.clear	{clear: left;}
