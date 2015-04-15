@@ -1,15 +1,19 @@
-<html> 
-<head> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
 <title>Aura Rosenberg</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
 <link rel="stylesheet" href="text.css" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
 <body>
   <div id="sidebar"><!--BEGIN SIDEBAR-->
     <p id="name"><a href="http://www.aurarosenberg.com/"><img src="aura.jpg" name="aura" valign="top"></a></p>
     <p>
-      <a href="projects.html">Projects</a><br>
+      <a href="projects.html"><span id="list1">Projects</span></a><br>
       <a href="rocks.html">The Dialectical Porn Rock</a><br>
       <a href="heads.html">Head Shots</a><br>            
       <a href="childhood.html">Berlin Childhood</a><br>
@@ -41,18 +45,21 @@
       <a href="mailto:greg.goldberg718@gmail.com">Website by Greg Goldberg</a>
     </p>
   </div><!-- END SIDEBAR -->          
-  <div id="container" class="margin">
-    <p><a href="Fourway-Installation.jpg" target="_blank"><img src="Fourway-Install-Web.jpg"><br><span id="kids">Sometimes (Works of Art), New York, NY (Click for larger image)</a></span></p>
-<!-- 
-    <p><img src="Fourway-Giraffe-Web.jpg"></p>
+  <div id="container">
+    <h1><em>Fourway</em> Exhibition</h1>
 
-    <p><img src="Fourway-Fishnet-Web.jpg"></p>
+    <div class="outside">
+      <p><span id="slider-prev"></span> | <span id="slider-next"><span></p>
+    </div> 
 
-    <p><img src="Fourway-Painting-Web-01.jpg"></p>
-
-    <p><img src="Palette-01 For Web copy.jpg"></p> -->
-
-    <p><a href="Fourway.pdf" target="_blank"><img src="Fourway_PR_thumb.jpg"><br><span id="kids">Click to download pdf of press release</a></span></p>
+    <ul id="slides" class="bxslider">
+      <li><a href="Fourway-Installation.jpg" target="_blank"><img src="Fourway-Install-Web.jpg"><br><span id="kids">Sometimes (Works of Art), New York, NY (Click for larger image)</span></a></li>
+      <!--<li><img src="Fourway-Giraffe-Web.jpg"></li>
+      <li><img src="Fourway-Fishnet-Web.jpg"></li>
+      <li><img src="Fourway-Painting-Web-01.jpg"></li>
+      <li><img src="Palette-01 For Web copy.jpg"></li> -->
+      <li><a href="Fourway.pdf" target="_blank"><img src="Fourway_PR_thumb.jpg"><br><span id="kids">Click to download pdf of press release</span></a></li>
+    </ul>
   </div><!--#container-->
 </body>
 </html>

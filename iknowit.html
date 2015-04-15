@@ -1,15 +1,19 @@
-<html> 
-<head> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
 <title>Aura Rosenberg</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
 <link rel="stylesheet" href="text.css" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
 <body>
   <div id="sidebar"><!--BEGIN SIDEBAR-->
     <p id="name"><a href="http://www.aurarosenberg.com/"><img src="aura.jpg" name="aura" valign="top"></a></p>
     <p>
-      <a href="projects.html">Projects</a><br>
+      <a href="projects.html"><span id="list1">Projects</span></a><br>
       <a href="rocks.html">The Dialectical Porn Rock</a><br>
       <a href="heads.html">Head Shots</a><br>            
       <a href="childhood.html">Berlin Childhood</a><br>
@@ -42,51 +46,52 @@
     </p>
   </div><!-- END SIDEBAR -->          
   <div id="container" class="margin">
-    <p><a href="/I-Know-It Install Big 01.jpg" target="_blank"><img src="I-Know-It Install For Web 01.jpg"><br><span id="kids">Martos Gallery, click for larger image</a></span></p>
-    
-    <p><a href="/I-Know-It Install Big 02.jpg" target="_blank"><img src="I-Know-It Install For Web 02.jpg"><br><span id="kids">Click for larger image</a></span></p>
-    
-    <p><a href="/I-Know-It Install Big 03.jpg" target="_blank"><img src="I-Know-It Install For Web 03.jpg"><br><span id="kids">Click for larger image</a></span></p>
-    
-    <p><a href="/I-Know-It Install Big 04.jpg" target="_blank"><img src="I-Know-It Install For Web 04.jpg"><br><span id="kids">Click for larger image</a></span></p>
-    
-    <p><a href="/I-Know-It Install Big 05.jpg" target="_blank"><img src="I-Know-It Install For Web 05.jpg"><br><span id="kids">Click for larger image</a></span></p>
-    
-    <p><a href="/I-Know-It Install Big 06.jpg" target="_blank"><img src="I-Know-It Install For Web 06.jpg"><br><span id="kids">Click for larger image</a></span></p>
-    
-    <p><a href="/I-Know-It Install Big 07.jpg" target="_blank"><img src="I-Know-It Install For Web 07.jpg"><br><span id="kids">Click for larger image</a></span></p>
-    
-    <p><a href="/I-Know-It Install Big 08.jpg" target="_blank"><img src="I-Know-It Install For Web 08.jpg"><br><span id="kids">Click for larger image</a></span></p>
-    
-    <p><a href="/I-Know-It Install Big 09.jpg" target="_blank"><img src="I-Know-It Install For Web 09.jpg"><br><span id="kids">Click for larger image</a></span></p>
-    
-    <p><a href="/I-Know-It Install Big 10.jpg" target="_blank"><img src="I-Know-It Install For Web 10.jpg"><br><span id="kids">Click for larger image</a></span></p>
-    
-    <p><a href="/I-Know-It Install Big 11.jpg" target="_blank"><img src="I-Know-It Install For Web 11.jpg"><br><span id="kids">Click for larger image</a></span></p>
-    
-    <p><a href="/I Know It Paintings Big 07.jpg" target="_blank"><img src="I Know It Paintings For Web 07.jpg"><br><span id="kids"><i>Little Hans</i>Click for larger image</a></span></p>
+    <h1><em>I Know It When I See It</em> Exhibition</h1>
 
-<!--     <p><img src="I Know It Paintings For Web 01.jpg"></p>
-    <p><img src="I Know It Paintings For Web 02.jpg"></p>
-    <p><img src="I Know It Paintings For Web 03.jpg"></p>
-    <p><img src="I Know It Paintings For Web 04.jpg"></p>
-    <p><img src="I Know It Paintings For Web 05.jpg"></p>
-    <p><img src="I Know It Paintings For Web 06.jpg"></p>
-    <p><img src="I Know It Paintings For Web 08.jpg"></p>
-    <p><img src="I Know It Paintings For Web 09.jpg"></p> -->
+    <div class="outside">
+      <p><span id="slider-prev"></span> | <span id="slider-next"><span></p>
+    </div> 
 
-<!--     <p><a href="/I Know It Paintings Big 10.jpg" target="_blank"><img src="I Know It Paintings For Web 10.jpg"><br><span id="kids">Click for larger image</a></span></p>
+    <ul id="slides" class="bxslider">
+      <li><a href="/I-Know-It Install Big 01.jpg" target="_blank"><img src="I-Know-It Install For Web 01.jpg"><br><span id="kids">Martos Gallery, click for larger image</span></a></li>
+      
+      <li><a href="/I-Know-It Install Big 02.jpg" target="_blank"><img src="I-Know-It Install For Web 02.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      
+      <li><a href="/I-Know-It Install Big 03.jpg" target="_blank"><img src="I-Know-It Install For Web 03.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      
+      <li><a href="/I-Know-It Install Big 04.jpg" target="_blank"><img src="I-Know-It Install For Web 04.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      
+      <li><a href="/I-Know-It Install Big 05.jpg" target="_blank"><img src="I-Know-It Install For Web 05.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      
+      <li><a href="/I-Know-It Install Big 06.jpg" target="_blank"><img src="I-Know-It Install For Web 06.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      
+      <li><a href="/I-Know-It Install Big 07.jpg" target="_blank"><img src="I-Know-It Install For Web 07.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      
+      <li><a href="/I-Know-It Install Big 08.jpg" target="_blank"><img src="I-Know-It Install For Web 08.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      
+      <li><a href="/I-Know-It Install Big 09.jpg" target="_blank"><img src="I-Know-It Install For Web 09.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      
+      <li><a href="/I-Know-It Install Big 10.jpg" target="_blank"><img src="I-Know-It Install For Web 10.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      
+      <li><a href="/I-Know-It Install Big 11.jpg" target="_blank"><img src="I-Know-It Install For Web 11.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      
+      <li><a href="/I Know It Paintings Big 07.jpg" target="_blank"><img src="I Know It Paintings For Web 07.jpg"><br><span id="kids"><i>Little Hans</i>Click for larger image</span></a></li>
 
-    <p><a href="/I Know It Paintings Big 11.jpg" target="_blank"><img src="I Know It Paintings For Web 11.jpg"><br><span id="kids">Click for larger image</a></span></p>
-
-    <p><a href="Palette Big-01.jpg" target="_blank"><img src="Palette-th-01.jpg" border="0" height="500"><br><span id="kids">Black and White Palettes (click for larger image)Click for larger image</a></span></p>
-
-    <p><a href="Palette Big-02.jpg" target="_blank"><img src="Palette-th-02.jpg" border="0" height="500"><br><span id="kids">Click for larger image</a></span></p>
-
-    <p><a href="Palette Big-03.jpg" target="_blank"><img src="Palette-th-03.jpg" border="0" height="500"><br><span id="kids">Click for larger image</a></span></p> -->
-
-    <p><a href="/I Know It When I See It.pdf" target="_blank"><img src="iKnowitWhenISeeIt_PR_thumb.jpg"><br><span id="kids">Click for pdf of press release.Click for larger image</a></span></p>
-  
+      <!--<p><img src="I Know It Paintings For Web 01.jpg"></p>
+      <p><img src="I Know It Paintings For Web 02.jpg"></p>
+      <p><img src="I Know It Paintings For Web 03.jpg"></p>
+      <p><img src="I Know It Paintings For Web 04.jpg"></p>
+      <p><img src="I Know It Paintings For Web 05.jpg"></p>
+      <p><img src="I Know It Paintings For Web 06.jpg"></p>
+      <p><img src="I Know It Paintings For Web 08.jpg"></p>
+      <p><img src="I Know It Paintings For Web 09.jpg"></p> -->
+      <!--<li><a href="/I Know It Paintings Big 10.jpg" target="_blank"><img src="I Know It Paintings For Web 10.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      <li><a href="/I Know It Paintings Big 11.jpg" target="_blank"><img src="I Know It Paintings For Web 11.jpg"><br><span id="kids">Click for larger image</span></a></li>
+      <li><a href="Palette Big-01.jpg" target="_blank"><img src="Palette-th-01.jpg" border="0" height="500"><br><span id="kids">Black and White Palettes (click for larger image)Click for larger image</span></a></li>
+      <li><a href="Palette Big-02.jpg" target="_blank"><img src="Palette-th-02.jpg" border="0" height="500"><br><span id="kids">Click for larger image</span></a></li>
+      <li><a href="Palette Big-03.jpg" target="_blank"><img src="Palette-th-03.jpg" border="0" height="500"><br><span id="kids">Click for larger image</span></a></li> -->
+      <li><a href="/I Know It When I See It.pdf" target="_blank"><img src="iKnowitWhenISeeIt_PR_thumb.jpg"><br><span id="kids">Click for pdf of press release.Click for larger image</span></a></li>
+    </ul>
   </div><!--#container-->
 </body>
 </html>

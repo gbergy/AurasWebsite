@@ -1,15 +1,19 @@
-<html> 
-<head> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
 <title>Aura Rosenberg</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
 <link rel="stylesheet" href="text.css" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
 <body>
   <div id="sidebar"><!--BEGIN SIDEBAR-->
     <p id="name"><a href="http://www.aurarosenberg.com/"><img src="aura.jpg" name="aura" valign="top"></a></p>
     <p>
-      <a href="projects.html">Projects</a><br>
+      <a href="projects.html"><span id="list1">Projects</span></a><br>
       <a href="rocks.html">The Dialectical Porn Rock</a><br>
       <a href="heads.html">Head Shots</a><br>            
       <a href="childhood.html">Berlin Childhood</a><br>
@@ -40,20 +44,28 @@
     </p>
   </div><!-- END SIDEBAR -->          
   <div id="container" class="margin">
+    <h1><em>Scene/Obscene</em> Exhibition</h1>
 
-    <p><a href="Scene_Obscene Install Big 01.jpg" target="_blank"><img src="Scene_Obscene Install Web-01.jpg"><br><span id="kids">Install Shots from MJ Briggs and Anna Meliksetian Gallelry, Los Angeles, CA</a></span></p>
+    <div class="outside">
+      <p><span id="slider-prev"></span> | <span id="slider-next"><span></p>
+    </div> 
 
-    <p><a href="Scene_Obscene Install Big 02.jpg" target="_blank"><img src="Scene_Obscene Install Web-02.jpg"><br><span id="kids">Click for larger image</a></span></p>
+    <ul id="slides" class="bxslider">
 
-    <p><a href="Scene_Obscene Install Big 03.jpg" target="_blank"><img src="Scene_Obscene Install Web-03.jpg"><br><span id="kids">Click for larger image</a></span></p>
+      <li><a href="Scene_Obscene Install Big 01.jpg" target="_blank"><img src="Scene_Obscene Install Web-01.jpg"><br><span id="kids">Install Shots from MJ Briggs and Anna Meliksetian Gallelry, Los Angeles, CA</span></a></li>
 
-    <p><a href="Scene_Obscene Install Big 04.jpg" target="_blank"><img src="Scene_Obscene Install Web-04.jpg"><br><span id="kids">Click for larger image</a></span></p>
+      <li><a href="Scene_Obscene Install Big 02.jpg" target="_blank"><img src="Scene_Obscene Install Web-02.jpg"><br><span id="kids">Click for larger image</span></a></li>
 
-    <p><a href="Scene_Obscene Install Big 05.jpg" target="_blank"><img src="Scene_Obscene Install Web-05.jpg"><br><span id="kids">Click for larger image</a></span></p>
+      <li><a href="Scene_Obscene Install Big 03.jpg" target="_blank"><img src="Scene_Obscene Install Web-03.jpg"><br><span id="kids">Click for larger image</span></a></li>
 
-    <p><a href="Scene_Obscene Install Big 06.jpg" target="_blank"><img src="Scene_Obscene Install Web-06.jpg"><br><span id="kids">Click for larger image</a></span></p>
+      <li><a href="Scene_Obscene Install Big 04.jpg" target="_blank"><img src="Scene_Obscene Install Web-04.jpg"><br><span id="kids">Click for larger image</span></a></li>
 
-    <p><a href="Scene_Obscene Install Big 07.jpg" target="_blank"><img src="Scene_Obscene Install Web-07.jpg"><br><span id="kids">Click for larger image</a></span></p>
+      <li><a href="Scene_Obscene Install Big 05.jpg" target="_blank"><img src="Scene_Obscene Install Web-05.jpg"><br><span id="kids">Click for larger image</span></a></li>
+
+      <li><a href="Scene_Obscene Install Big 06.jpg" target="_blank"><img src="Scene_Obscene Install Web-06.jpg"><br><span id="kids">Click for larger image</span></a></li>
+
+      <li><a href="Scene_Obscene Install Big 07.jpg" target="_blank"><img src="Scene_Obscene Install Web-07.jpg"><br><span id="kids">Click for larger image</span></a></li>
+    </ul>
   </div><!--#container-->
 </body>
 </html>
