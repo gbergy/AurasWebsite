@@ -1,7 +1,6 @@
 /**** GLOBAL *****/
 ul, li {
-	margin: 0; padding: 0; border: 0;
-}
+	margin: 0; padding: 0; border: 0; }
 
 body	{
 	color: #999999;
@@ -25,7 +24,7 @@ p {
 
 li	{
 	background: #ffffff;
-	list-style: disc;
+	list-style: none;
 	font-size: 12px;
 }
 
@@ -100,21 +99,6 @@ h1 {
 
 #containerbio h3 {
 	color: #000;
-}
-
-#containerexh {
-	width: 73%;
-	height: 100%;
-	float: right;
-	position: relative;
-	top: 50px;
-	/*text-align: center;*/
-	margin-bottom: 20px;
-}
-
-#containerexh p {
-	display: inline-block;
-	margin: 20px;
 }
 
 .scroll {
