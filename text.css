@@ -167,6 +167,7 @@ h1 {
 	text-align: center;
 }
 /***** END GLOBAL *****/
+/***** IMG ViewPort and Controls ****/
 .bx-controls-direction {
 	top: 100px;
 }
@@ -203,7 +204,7 @@ h1 {
 	/*right: 0;*/
 	position: absolute;
 	/*position: relative;*/
-	top: 400px;
+	top: 370px;
 	z-index: 90;
 	max-width: 1000px;
 	margin-left: 10px;
@@ -218,6 +219,7 @@ h1 {
 	right: 10px;
 
 }
+/***** END Viewport and Controls *****/
 /***** SIDEBAR STYLING *****/
 #sidebar	{
 	position: fixed;
@@ -284,7 +286,6 @@ h1 {
 }
 
 /***** END SIDEBAR STYLING *****/
-
 /**** Links ****/
 .contact {
 	width: 40%;
@@ -358,71 +359,3 @@ td {
 	font-size: 10px;
 	line-height: 30px;
 }
-
-/********Projects Grid **********
-
-.proj_grid {
-	width: auto;
-	height: auto;
-	float: left;
-	margin: 2px;
-	padding: 2px;
-	position: relative;
-	white-space: pre-line;
-} */
-
-/*.proj_grid:hover {
-	background-color: #EDECEC;
-	/*border:2px solid #EDECEC;
-	overflow: auto;*/
-
-	/*border one color*/
-	/*border hover another color
-} */
-
-/*#proj_title {
-	font-size: 12px;
-	font-weight: bold;
-	text-align: center;
-
-}
-
-***********End Projects Grid***********/
-
-/*td { 
-	font-size: 12px;
-	font-weight: normal;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #000;
-	line-height: 17px;
-}*/
-
-
-
-/*#index	{color: #666666;
-		 background: #ffffff;
-		 font-family: arial, helvetica, sans serif;
-	   	 font-weight: bold;
-		 font-size: 12px;
-}
-
-		
-#title	{font-weight:bold;
- 		font-size:18px;
- 		font-family: arial, helvetica, sans serif;
- 		background: #ffffff;}
- 		
-#secondary	{font-size:11px;
-font-family: arial, helvetica, sans serif;
-			background: #ffffff;}
-			
-#header	{font-size:11px;
-font-family: arial, helvetica, sans serif;
-		background: #ffffff;}
-		
-#headfont	{font-size:24px;
-		font-weight:bold;
-		font-family: arial, helvetica, sans serif;
-		background: #ffffff;}
-		
-.clear	{clear: left;}
