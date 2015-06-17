@@ -81,7 +81,7 @@ h1 {
 }*/
 
 #containerproj {
-	margin: 49px 36px 36px 36px;
+	margin: 55px 36px 36px 36px;
 }
 
 #containerproj p { 
@@ -206,7 +206,7 @@ h1 {
 	/*right: 0;*/
 	position: absolute;
 	/*position: relative;*/
-	top: 361px;
+	top: 382px;
 	z-index: 90;
 	max-width: 1000px;
 	margin-left: 55px;
@@ -231,8 +231,9 @@ h1 {
 	top: 7%;
 	z-index: 98;
 	background-color: #FFF;
-	margin-left: -19px;
-	padding-left: 18px;
+	margin-left: -1000px;
+	padding-left: 1018px;
+	left: 0;
 }
 
 #sidebar p a {
