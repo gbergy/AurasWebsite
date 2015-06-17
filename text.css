@@ -71,8 +71,20 @@ h1 {
 
 .wrapper {
 	padding: 0 50px;
-	margin-top: -20px;
+	margin-top: -1px;
 } 
+
+.link {
+	margin-top: -11px;
+}
+
+.review {
+	margin-top: -6px;
+}
+
+.pubs {
+	margin-top: -5px;
+}
 
 /*.overflow {
 	height: 100%;
@@ -81,7 +93,7 @@ h1 {
 }*/
 
 #containerproj {
-	margin: 55px 36px 36px 36px;
+	margin: 56px 36px 36px 36px;
 }
 
 #containerproj p { 
@@ -99,7 +111,7 @@ h1 {
 	height: 100%;
 	float: right;
 	position: relative;
-	top: 50px;
+	top: 44px;
 	margin: 36px;
 }
 
@@ -135,7 +147,7 @@ h1 {
 
 .blurb{
 	margin-left: 20px;
-	margin-top: 10px;
+	margin-top: -8px;
 }
 
 .blurb img {
@@ -206,7 +218,7 @@ h1 {
 	/*right: 0;*/
 	position: absolute;
 	/*position: relative;*/
-	top: 382px;
+	top: 393px;
 	z-index: 90;
 	max-width: 1000px;
 	margin-left: 55px;
@@ -231,8 +243,8 @@ h1 {
 	top: 7%;
 	z-index: 98;
 	background-color: #FFF;
-	margin-left: -1000px;
-	padding-left: 1018px;
+	margin-left: -4000px;
+	padding-left: 4018px;
 	left: 0;
 }
 
@@ -259,6 +271,10 @@ h1 {
 	font-family: Arial, sans-serif; 
 }
 
+.projnav {
+	height: 204px;
+}
+
 #list1	{
 	font-weight: bold;
 	color: #666666;
@@ -270,7 +286,7 @@ h1 {
     color: #999999;
 	font-size:9px;
 	font-family: Arial, sans-serif; 
-	margin-top: 20%;
+	margin-top: 65px;
 }
 
 #exh_titles a {
