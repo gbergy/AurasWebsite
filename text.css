@@ -71,6 +71,7 @@ h1 {
 
 .wrapper {
 	padding: 0 50px;
+	margin-top: -20px;
 } 
 
 /*.overflow {
@@ -134,6 +135,7 @@ h1 {
 
 .blurb{
 	margin-left: 20px;
+	margin-top: 10px;
 }
 
 .blurb img {
@@ -204,10 +206,10 @@ h1 {
 	/*right: 0;*/
 	position: absolute;
 	/*position: relative;*/
-	top: 370px;
+	top: 361px;
 	z-index: 90;
 	max-width: 1000px;
-	margin-left: 10px;
+	margin-left: 55px;
 }
 
 .bx-prev {
