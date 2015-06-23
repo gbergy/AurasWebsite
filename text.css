@@ -107,12 +107,13 @@ h1 {
 }
 
 #containerbio {
-	width: 77%;
+	width: 200px;
 	height: 100%;
-	float: right;
+	/*float: left;*/
 	position: relative;
 	top: 44px;
-	margin: 36px;
+	margin-top: 47px;
+	left: 250px;
 }
 
 #containerbio h3 {
